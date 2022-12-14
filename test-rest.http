@@ -1,0 +1,66 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/user?firstname=Charles&lastname=Bourneuf
+
+###
+
+GET http://localhost:3000/user/2
+
+###
+
+GET http://localhost:3000/user
+
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+	"id": "1",
+	"firstname": "Charles",
+	"lastname": "Bourneuf"
+}
+
+###
+
+PUT http://localhost:3000/user
+Content-Type: application/json
+
+{
+	"id": "1",
+	"firstname": "Charles",
+	"lastname": "Bourneuf",
+	"age" : "38"
+}
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+	"id": "3",
+	"firstname": "Rey",
+	"lastname": "Padber",
+	"age" : "28",
+	"email" : "Rey.Padberg@karina.biz"
+}
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+	"id": "2",
+	"firstname": "John",
+	"lastname": "Doe",
+	"age" : "28"
+}
+
+###
+
+DELETE http://localhost:3000/user/2

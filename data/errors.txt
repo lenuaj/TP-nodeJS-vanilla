@@ -1,0 +1,7 @@
+12/12/2022 21:34:14 - DELETE : http://localhost:3000/user/2 
+12/12/2022 21:35:31 - DELETE : http://localhost:3000/user/2 
+12/12/2022 21:42:46 - DELETE : http://localhost:3000/user/2 
+12/12/2022 21:43:10 - DELETE : http://localhost:3000/user/2 
+12/12/2022 21:43:33 - DELETE : http://localhost:3000/user/2 
+12/12/2022 21:44:12 - DELETE : http://localhost:3000/user/2 
+12/12/2022 21:46:06 - DELETE : http://localhost:3000/user/2 
